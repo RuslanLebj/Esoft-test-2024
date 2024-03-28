@@ -1,5 +1,5 @@
 .house {
-    margin-top: 300px;
+    margin-top: 500px;
     left: 45%;
     position: relative;
     width: 200px;
@@ -68,14 +68,14 @@
 @keyframes smokeAnimation {
     0% {
         opacity: 0;
-        transform: translateY(0);
+        transform: translate(0, 0);
     }
-    50% {
+    25% {
         opacity: 1;
     }
     100% {
         opacity: 0;
-        transform: translateY(-100px);
+        transform: translate(30px, -100px);
     }
 }
 .grass {
