@@ -35,4 +35,6 @@ function deepCopy(obj, clonedObjects = new WeakMap()) {
     }
 
     return clone;
-}
+};
+
+module.exports = deepCopy;
